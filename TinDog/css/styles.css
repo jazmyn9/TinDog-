@@ -1,0 +1,168 @@
+#title{
+  background-color: #ff4c68;
+}
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: "Montserrat";
+}
+/*headings */
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3em;
+  line-height: 1.5;
+
+}
+.container{
+  padding: 3% 50%;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 40px;
+  font-weight: bold;
+
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+/*  position: absolute;*/
+
+}
+.icon1{
+  font-size: 50px;
+  color: #ef8172;
+  padding-bottom: 2%;
+}
+.icon1:hover{
+  color: #ff4c68;
+}
+.icon2{
+  font-size: 50px;
+    color: #ef8172;
+      padding-bottom: 2%;
+}
+.icon2:hover{
+  color: #ff4c68;
+}
+.icon3{
+  font-size: 50px;
+    color: #ef8172;
+      padding-bottom: 2%;
+}
+.icon3:hover{
+  color: #ff4c68;
+}
+#features{
+  background-color: white;
+  font-family: Montserrat;
+  padding: 8% 16%;
+  text-align: center;
+
+  position: relative;
+  z-index: 1;
+}
+.feature-title{
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
+}
+.para1 ,.para2,.para3{
+  color: #8f8f8f;
+}
+.class{
+  width: 33%;
+}
+#testimonials{
+
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+
+}
+.testimonial-text{
+  font-size: 3em;
+  line-height: 1.5;
+  text-align: center;
+}
+.carousel-item{
+    padding: 8% 16%;
+}
+.dog{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+  padding-top: 2%;
+}
+#press{
+
+  background-color: #ef8172;
+  padding-bottom: 2%;
+
+}
+.logo{
+  margin: 3% 2% 2% 2%;
+  width: 10%;
+}
+#pricing{
+  padding: 100px;
+}
+.price-text{
+  font-size: 3em;
+  line-height: 1.5;
+  text-align: center;
+}
+.card-header{
+}
+.card-body{
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    transform: rotate(0);
+    position: static;
+  }
+}
+#cta{
+
+background-color: #ff4c68;
+padding: 7% 3%;
+font-family: Montserrat;
+
+}
+#footer{
+  padding: 5% 3%;
+text-align: center;
+  background-color: #fff;
+}
+.last-text{
+  color: grey;
+  font-size: 10px;
+
+}
+.icon5, .icon6, .icon7, .icon8{
+  font-size: 20px;
+padding-left: 2%;
+padding-right:2%;
+      padding-bottom: 1%;
+
+}
